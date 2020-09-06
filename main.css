@@ -1,3 +1,64 @@
-.header{
-    background-color: brown;
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: #dac8a9;
+    
+    font-family: "Bodoni MT";
+}
+.header {
+    background-color: transparent;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: "Bodoni MT"; font-size: 42px; font-style: italic; font-variant: normal; font-weight: 700; padding: 25px;
+}
+
+.galeria::-webkit-scrollbar{
+    height: 8px;
+}
+.galeria::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.galeria{
+    margin-bottom: 4rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+    white-space:nowrap;
+    
+}
+h2{
+    text-align: right;
+    margin: 10px;
+    font-family: "Bodoni MT"; font-style: italic;
+}
+.galeria img{
+    box-shadow: 1px 1px 10px #999; 
+    margin: 40px;
+    max-height: 400px;
+    cursor: pointer;
+    display:inline-block;
+    display:inline;
+    zoom:1;
+    vertical-align:top;
+}
+
+footer {
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    background: #966f33;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+    padding: 0;
 }
